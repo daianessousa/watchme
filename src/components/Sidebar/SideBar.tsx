@@ -1,5 +1,6 @@
-import { Button } from './Button';
-import {GenreResponseProps} from '../App'
+import { Button } from '../Button/Button';
+import {GenreResponseProps} from '../../App'
+import './styles.scss'
 
 interface SideBarProps {
   genres: GenreResponseProps[];

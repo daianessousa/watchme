@@ -1,5 +1,6 @@
-import { GenreResponseProps, MovieProps } from '../App'
-import {MovieCard} from './MovieCard'
+import { GenreResponseProps, MovieProps } from '../../App'
+import { MovieCard } from '../MovieCard/MovieCard'
+import './styles.scss'
 
 interface ContentProps{
   movies: MovieProps[],
